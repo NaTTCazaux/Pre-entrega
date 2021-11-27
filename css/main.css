@@ -75,8 +75,6 @@ h1 {
 
     background-color: #204a4a !important;
     color: white !important;
-
-
 }
 
 
@@ -305,6 +303,7 @@ h5 {
         background-color: #204a4a !important;
         border: solid #204a4a;
         font-size: 10px;
+
     }
 
     h1 {
@@ -410,7 +409,7 @@ h5 {
         flex-direction: column;
         margin-left: 80px;
         margin-top: 112px;
-    padding: 30px;
+        padding: 30px;
 
     }
 
