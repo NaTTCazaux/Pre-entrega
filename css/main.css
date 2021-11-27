@@ -208,9 +208,14 @@ h5 {
     font-family: 'Krona One', sans-serif;
     font-size: 30px;
     color: #204a4a;
-    margin-top: 70px;
 }
 
+.textos-eventos h2 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    color: #204a4a;
+    margin-top: 70px;
+}
 
 
 .halloween {
@@ -300,7 +305,6 @@ h5 {
         background-color: #204a4a !important;
         border: solid #204a4a;
         font-size: 10px;
-        margin-bottom: 35px;
     }
 
     h1 {
