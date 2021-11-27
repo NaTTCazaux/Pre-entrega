@@ -1,0 +1,434 @@
+
+/* HEADER */
+
+.boton {
+    background-color: #204a4a !important;
+    border: solid #204a4a;
+}
+
+
+.pagina-principal {
+    background-image: url("../public/header-cambio.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 65vw;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    color: #204a4a;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 700px;
+}
+
+.bienvenida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-bienvenida {
+    margin-left: 675px
+}
+
+
+/* NaVBAR */
+
+.logo-principal {
+    display: flex;
+    float: left;
+}
+
+#logo {
+    width: 87px;
+    margin-left: 33px;
+    margin-top: 5px;
+}
+
+.nav-todos {
+    background-color: transparent !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end !important;
+}
+
+.texto-nav {
+    font-family: 'Krona One', sans-serif !important;
+    text-decoration: none !important;
+    color: #204a4a !important;
+    font-size: 15px !important;
+    align-self: center !important;
+    margin-right: 90px !important;
+    border: solid transparent !important;
+
+    transition: 0.1s ease-in-out;
+}
+
+.texto-nav:hover {
+    border: solid transparent!important;
+    border-radius: 5px !important;
+    
+    background-color:  #204a4a !important;
+    color: white !important;
+    
+    
+}
+
+
+
+
+
+/* MAIN */
+
+
+/* NOSOTROS */
+
+.section-nosotros{
+    margin-top: 100px;
+
+}
+
+.section-eventos{
+    margin-top: 100px;
+
+}
+
+.section-productos{
+    margin-top: 100px;
+
+}
+
+.img-nosotros {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.img-productos {
+    width: 221px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.textos- h2 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    color: #204a4a;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #e3ddd53d;
+    max-width: 100%;
+
+    display: grid;
+    grid-template-areas:
+        "logo-footer nosotros-footer productos-footer contacto-footer"
+        "redes-footer eventos-footer menu-footer contacto-footer";
+    margin-top: 50px;
+
+}
+
+.logo-footer {
+    grid-area: logo-footer;
+}
+
+.nosotros-footer {
+    grid-area: nosotros-footer;
+}
+
+.productos-footer {
+    grid-area: productos-footer;
+}
+
+.redes-footer {
+    grid-area: redes-footer;
+}
+
+.eventos-footer {
+    grid-area: eventos-footer;
+}
+
+.menu-footer {
+    grid-area: menu-footer;
+}
+
+footer div {
+    padding: 20px;
+}
+
+.iconos-redes {
+    width: 26px;
+}
+
+footer a {
+    font-family: 'Krona One', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: #204a4a;
+    margin-top: 15px;
+}
+
+footer div p {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    margin-top: 15px;
+}
+
+h5 {
+    font-family: 'Krona One', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #204a4a;
+    margin-top: 15px;
+}
+
+.redes-footer a {
+    text-decoration: none;
+}
+
+
+
+/* PAGINAS */
+
+.textos- h2 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    color: #204a4a;
+}
+
+
+
+.halloween {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+.imagen-halloween {
+    border-radius: 10px;
+}
+
+.imagen-eventos {
+    width: 360px;
+    border-radius: 10px;
+}
+
+.video-hallowen {
+    display: block;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================== */
+/* media-queries */
+
+
+@media (max-width:768px) {
+
+
+    .texto-nav{
+        margin-right: 0 !important;
+    }
+
+
+    .bienvenida {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boton-bienvenida {
+        margin-left: 0;
+    }
+
+    .boton {
+        background-color: #204a4a !important;
+        border: solid #204a4a;
+        font-size: 10px;
+        margin-bottom: 35px;
+    }
+
+    h1 {
+        font-family: 'Krona One', sans-serif;
+        font-weight: bold;
+        display: flex;
+        text-align: center;
+        font-size: 20px;
+        color: #204a4a;
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 0;
+
+    }
+    .card{
+        display: none;
+    }
+    .img-productos {
+        max-width: 50%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    footer {
+    background-color: #e3ddd53d;
+    max-width: 100%;
+    display: grid;
+    grid-template-areas:
+        "logo-footer redes-footer"
+        "productos-footer direccion-footer"
+        "eventos-footer horario-footer"
+        "menu-footer nosotros-footer";
+    margin-top: 50px;}
+
+    .logo-footer {
+        grid-area: logo-footer;
+    }
+    
+    .redes-footer {
+        grid-area: redes-footer;
+    }
+    
+    .direccion-footer{
+        grid-area: direccion-footer;
+    }
+
+    .horario-footer{
+        grid-area: horario-footer;
+    }
+
+    .eventos img, .eventos video {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .iconos-redes {
+        width: 18px;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (min-width:769px) {
+
+   
+
+
+    .bienvenida {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boton-bienvenida {
+        margin-left: 80px;
+    }
+
+    .boton {
+        background-color: #204a4a !important;
+        border: solid #204a4a;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-family: 'Krona One', sans-serif;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        color: #204a4a;
+        flex-direction: column;
+        margin-left: 80px;
+
+    }
+
+    .img-productos {
+        max-width: 50%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .dia-patrimonio {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 200px;
+        padding: 40px;
+    }
+
+    .halloween-2 {
+        display: flex;
+        align-items: space-between;
+    }
+
+    .imagen-halloween {
+        width: 52%;
+    }
+
+    .video-hallowen {
+        width: 44%;
+    }
+
+    
+}
+
+
