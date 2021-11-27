@@ -1,4 +1,3 @@
-
 /* HEADER */
 
 .boton {
@@ -31,11 +30,6 @@ h1 {
     margin-left: 700px;
 }
 
-.bienvenida {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .boton-bienvenida {
     margin-left: 675px
@@ -76,13 +70,13 @@ h1 {
 }
 
 .texto-nav:hover {
-    border: solid transparent!important;
+    border: solid transparent !important;
     border-radius: 5px !important;
-    
-    background-color:  #204a4a !important;
+
+    background-color: #204a4a !important;
     color: white !important;
-    
-    
+
+
 }
 
 
@@ -94,17 +88,17 @@ h1 {
 
 /* NOSOTROS */
 
-.section-nosotros{
+.section-nosotros {
     margin-top: 100px;
 
 }
 
-.section-eventos{
+.section-eventos {
     margin-top: 100px;
 
 }
 
-.section-productos{
+.section-productos {
     margin-top: 100px;
 
 }
@@ -279,8 +273,12 @@ h5 {
 
 @media (max-width:768px) {
 
+    .section-nosotros {
+        margin-top: 10px;
+    }
 
-    .texto-nav{
+
+    .texto-nav {
         margin-right: 0 !important;
     }
 
@@ -289,6 +287,8 @@ h5 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 85px;
+        margin-left: 90px;
     }
 
     .boton-bienvenida {
@@ -314,43 +314,48 @@ h5 {
         margin-left: 0;
 
     }
-    .card{
+
+    .card-text {
         display: none;
     }
+
     .img-productos {
         max-width: 50%;
         height: auto;
         border-radius: 10px;
+        padding: 2px;
     }
 
     footer {
-    background-color: #e3ddd53d;
-    max-width: 100%;
-    display: grid;
-    grid-template-areas:
-        "logo-footer redes-footer"
-        "productos-footer direccion-footer"
-        "eventos-footer horario-footer"
-        "menu-footer nosotros-footer";
-    margin-top: 50px;}
+        background-color: #e3ddd53d;
+        max-width: 100%;
+        display: grid;
+        grid-template-areas:
+            "logo-footer redes-footer"
+            "productos-footer direccion-footer"
+            "eventos-footer horario-footer"
+            "menu-footer nosotros-footer";
+        margin-top: 50px;
+    }
 
     .logo-footer {
         grid-area: logo-footer;
     }
-    
+
     .redes-footer {
         grid-area: redes-footer;
     }
-    
-    .direccion-footer{
+
+    .direccion-footer {
         grid-area: direccion-footer;
     }
 
-    .horario-footer{
+    .horario-footer {
         grid-area: horario-footer;
     }
 
-    .eventos img, .eventos video {
+    .eventos img,
+    .eventos video {
         max-width: 100%;
         margin-bottom: 30px;
     }
@@ -373,7 +378,7 @@ h5 {
 
 @media (min-width:769px) {
 
-   
+
 
 
     .bienvenida {
@@ -395,12 +400,12 @@ h5 {
     h1 {
         font-family: 'Krona One', sans-serif;
         font-weight: bold;
-        display: flex;
-        align-items: center;
-        font-size: 20px;
+        font-size: 40px;
         color: #204a4a;
         flex-direction: column;
         margin-left: 80px;
+        margin-top: 112px;
+    padding: 30px;
 
     }
 
@@ -431,7 +436,5 @@ h5 {
         width: 44%;
     }
 
-    
+
 }
-
-
