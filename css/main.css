@@ -161,12 +161,12 @@ footer {
 
 .direccion-footer {
     grid-area: direccion-footer;
-    margin-top: -12px;
+    margin-top: -11px;
 }
 
 .horario-footer {
     grid-area: horario-footer;
-    margin-top: -13px;
+    margin-top: -11px;
 }
 
 
