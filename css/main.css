@@ -88,17 +88,14 @@ h1 {
 
 .section-nosotros {
     margin-top: 100px;
-
 }
 
 .section-eventos {
     margin-top: 100px;
-
 }
 
 .section-productos {
     margin-top: 100px;
-
 }
 
 .img-nosotros {
@@ -119,7 +116,9 @@ h1 {
     color: #204a4a;
 }
 
-
+.p-importante{
+    font-weight: bold;
+}
 
 
 /* FOOTER */
