@@ -129,8 +129,8 @@ footer {
 
     display: grid;
     grid-template-areas:
-        "logo-footer nosotros-footer productos-footer contacto-footer"
-        "redes-footer eventos-footer menu-footer contacto-footer";
+        "logo-footer nosotros-footer productos-footer direccion-footer"
+        "redes-footer eventos-footer menu-footer horario-footer";
     margin-top: 50px;
 
 }
@@ -158,6 +158,17 @@ footer {
 .menu-footer {
     grid-area: menu-footer;
 }
+
+.direccion-footer {
+    grid-area: direccion-footer;
+    margin-top: -8px;
+}
+
+.horario-footer {
+    grid-area: horario-footer;
+    margin-top: -13px;
+}
+
 
 footer div {
     padding: 20px;
@@ -351,11 +362,13 @@ h5 {
 
     .direccion-footer {
         grid-area: direccion-footer;
+
     }
 
     .horario-footer {
         grid-area: horario-footer;
     }
+
 
     .eventos img,
     .eventos video {
